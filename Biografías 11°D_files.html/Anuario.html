@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuario de Multimedia y Desarrollo Web</title>
+    <style>
+        body {
+            font-family: serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2471a3;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar a, .dropdown .dropbtn {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            background-color: #333;
+            border: none;
+            cursor: pointer;
+        }
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: black;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #e2eaec; 
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .info-section {
+            background-color: #f0f8ff;
+            color: #333;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            text-align: center; /* Añadido para centrar el contenido */
+        }
+        .info-section h2 {
+            color: #007BFF;
+        }
+        .info-text {
+            background-color: #fff;
+            color: #333;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        img, video, iframe {
+            width: 100%;
+            max-width: 640px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Estudiantes</button>
+            <div class="dropdown-content">
+                <a href="file:///D:/Samuel%20Alveo.html">Samuel Alveo</a>
+                <a href="file:///D:/Manuel%20Blackman.html">Manuel Blackman</a>
+                <a href="file:///D:/Daniel%20Bogdanov.html">Daniel Bogdanov</a>
+                <a href="file:///D:/Kathleen%20Buitrago.html">Kathleen Buitrago</a>
+                <a href="file:///D:/michell%20chaverra.html">Michell Chaverra</a>
+                <a href="file:///D:/Anyelo%20Cortez.html">Angelo Cortés</a>
+                <a href="file:///D:/Mahilena%20%C3%89vila.html">Mahilena Évila</a>
+                <a href="file:///D:/Andr%C3%A9s%20G%C3%B3mez.html">Andrés Gómez</a>
+                <a href="file:///D:/Bryan%20Gonz%C3%A1lez.html">Bryan González</a>
+                <a href="file:///D:/Daniel%20Mat%C3%ADnez.html">Daniel Martínez</a>
+                <a href="file:///D:/Jose%20Mendieta.html">José Mendieta</a>
+                <a href="file:///D:/Irving%20N%C3%BA%C3%B1ez.html">Irving Núñez</a>
+                <a href="file:///D:/autobiografia.html">Débora Pineda</a>
+                <a href="file:///D:/Valentina%20Sotelo.html">Valentina Sotelo</a>
+                <a href="file:///D:/Ana%20Vargas.html">Ana Vargas</a>
+                <a href="file:///D:/Raul%20Vergara.html">Raúl Vergara</a>
+            </div>
+         </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Materias</button>
+            <div class="dropdown-content">
+                <a href="file:///D:/Quimica.html">Química</a>
+                <a href="file:///D:/Espa%C3%B1ol.html">Español</a>
+                <a href="file:///D:/Historia.html">Historia</a>
+                <a href="file:///D:/Redes%20de%20Computadoras.html">Redes de Computadoras</a>
+                <a href="file:///D:/Fisica.html">Física</a>
+                <a href="file:///D:/Arquitectura.html">Arquitectura de Computadoras</a>
+                <a href="file:///D:/Ingles.html">Inglés</a>
+                <a href="file:///D:/Matem%C3%A1ticas.html">Matemáticas</a>
+                <a href="file:///D:/Multimedia%20y%20Desarrollo%20Web.html">Multimedia y Desarrollo Web</a>
+                <a href="file:///D:/Programacion.html">Programación</a>
+                <a href="file:///D:/Educacion%20fisica.html">Educación Física</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Mis Amigos</button>
+            <div class="dropdown-content">
+                <a href="file:///D:/Amiga%20Katheleen.html">Kathleen Buitrago</a>
+                <a href="file:///D:/amiga-michell.html">Michelle Chaverra</a>
+                <a href="file:///D:/Amiga%20Mahi.html">Mahilena Évila</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-section" id="estudiantes">
+        <h2>Anuario de los alunmos del 11º D</h2> 
+    </div>
+
+    <div class="info-text">
+        <p>En el año escolar 2023-2024, la clase de 11ºD ha destacado por su diversidad, creatividad y espíritu de camaradería. Este grupo de estudiantes ha vivido un viaje académico lleno de retos y logros, donde cada uno ha aportado su singularidad al ambiente del aula. Desde su primer día en la institución, han demostrado un compromiso hacia sus estudios, aunque algunos, no del todo. Y una pasión por aprender que ha inspirado a sus compañeros y docentes por igual.</p>
+
+        <p>A lo largo del año, 11ºD ha sido testigo de momentos memorables, desde proyectos colaborativos que fomentaron el trabajo en equipo hasta actividades extracurriculares que han fortalecido los lazos entre ellos. Cada estudiante ha dejado una huella imborrable en la historia de su clase, contribuyendo a un ambiente de respeto, deversión y apoyo mutuo.</p>
+
+        <p>Los estudiantes de 11ºD no solo han sobresalido en lo académico, sino también en lo personal. Han desarrollado habilidades críticas, aprendiendo a enfrentar desafíos y a adaptarse a nuevas situaciones, cualidades que serán esenciales en su futuro. Su creatividad se ha reflejado en proyectos innovadores y presentaciones que han dejado a todos asombrados.</p>
+
+        <p>Este anuario es un homenaje a cada uno de ellos. A través de sus fotografías, anécdotas y logros, buscamos capturar la esencia de lo que significa ser parte de 11ºD. A medida que se preparan para dar el siguiente paso en sus vidas, este anuario servirá como un recordatorio de los momentos compartidos y de las amistades forjadas que durarán toda la vida.</p>
+
+        <p>Los estudiantes de 11ºD están listos para enfrentar el futuro, llevando consigo las lecciones aprendidas y los recuerdos atesorados en su paso por la escuela. Con cada uno de ellos, la comunidad educativa ha crecido y se ha enriquecido, dejando un legado que perdurará en el tiempo.</p>
+    </div>
+</body>
+</html>
+</div>
+<center>
+<img src="D:\todos-juntos.png.jpeg"alt="Descripción de la imagen">
+<center/>
+
+    
